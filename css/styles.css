@@ -1,0 +1,175 @@
+
+
+/*********************** Tag Syles*************************/
+h1 h2 h3 h4 h5 h6{
+  font-family : "Montserrat-bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body{
+
+  font-family: "Montserrat";
+  text-align: center;
+}
+/******************Heading Styles***************************/
+.major-headings{
+  font-family : "Montserrat-Black";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-headings{
+  font-size: 3rem;
+  line-height:1.5;
+}
+/****************containers****************************/
+.container-fluid{
+  padding: 7% 15%;
+}
+/*****************Sections********************************/
+.colored-section{
+  background-color: #ff4c68;
+  color: #FFF;
+}
+
+.white-section{
+  background-color:#FFFFFF;
+}
+
+/********************** Class Styles ***********************/
+#title .container-fluid{
+  padding-top: 3%;
+  text-align :left;
+}
+
+
+
+.title-image{
+  width: 60%;
+  -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    position:absolute;
+    right: 30%;
+
+
+}
+
+/**************Navigation Bar ********************/
+.navbar-brand{
+  font-family : "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+
+
+}
+
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size : 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/*********************Download Button******************************/
+
+.download-button{
+  margin: 5% 2% 3% 0;
+}
+/****************************Feature ********************************/
+#features {
+  position: relative;
+}
+
+.feature.title{
+  font-size:1.5rem;
+}
+
+.feature-icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+  }
+.feature-icon:hover{
+  color:#ff4c68;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+/******************************Testimonials Section *************************/
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom:7%;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/***************Pricing Section*******************************************/
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 3%;
+}
+
+/*************************Media CSS*************************************/
+
+@media (max-width:1028px){
+  #title{
+    text-align:center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+/************************CTA Section*********************************/
+
+
+
+.download-button-cta{
+  margin: 2% 2% 3% 0;
+}
+
+/****************************Footer****************************************/
+
+.footer-icons{
+  margin: 2% 1% 2% 1%;
+}
